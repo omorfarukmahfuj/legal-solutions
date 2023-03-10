@@ -24,3 +24,12 @@
 .font-extrabold {
     font-weight: 800 !important;
 }
+
+/* Button */
+.btn-primary {
+    background-color: #B68C5A;
+    border: 0;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    padding: 18px 30px;
+}

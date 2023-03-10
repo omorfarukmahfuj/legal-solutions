@@ -26,10 +26,46 @@
 }
 
 /* Button */
-.btn-primary {
+.btn-ls-primary {
     background-color: #B68C5A;
     border: 0;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 600 !important;
     padding: 18px 30px;
+    color: white;
+}
+
+.btn-ls-primary:hover {
+    background-color: #816440;
+}
+
+/* Text Color */
+.text-light-medium {
+    color: #E7E7E7;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(../images/banner.png), linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 80vh;
+}
+
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (max-width:576px) {
+    .hero-section {
+        background-image: url(../images/banner-small.png), linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    }
+
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .hero-section {
+        height: 40vh;
+    }
 }

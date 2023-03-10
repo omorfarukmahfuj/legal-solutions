@@ -9,19 +9,19 @@
     font-family: 'EB Garamond', serif !important;
 }
 
-.font-medium {
+.text-medium {
     font-weight: 500 !important;
 }
 
-.font-semibold {
+.text-semibold {
     font-weight: 600 !important;
 }
 
-.font-bold {
+.text-bold {
     font-weight: 700 !important;
 }
 
-.font-extrabold {
+.text-extrabold {
     font-weight: 800 !important;
 }
 
@@ -42,6 +42,14 @@
 /* Text Color */
 .text-light-medium {
     color: #E7E7E7;
+}
+
+.text-gray-medium {
+    color: #707070;
+}
+
+.text-gray-bold {
+    color: #414040;
 }
 
 /* Hero Section */
@@ -67,5 +75,10 @@
 @media only screen and (min-width:577px) and (max-width:992px) {
     .hero-section {
         height: 40vh;
+    }
+
+    .practice-section .row .p-5 {
+        padding: 15px 10px !important;
+
     }
 }

@@ -36,20 +36,20 @@
 }
 
 .btn-ls-primary:hover {
-    background-color: #816440;
+    background-color: #816440 !important;
 }
 
 /* Text Color */
 .text-light-medium {
-    color: #E7E7E7;
+    color: #E7E7E7 !important;
 }
 
 .text-gray-medium {
-    color: #707070;
+    color: #707070 !important;
 }
 
 .text-gray-bold {
-    color: #414040;
+    color: #414040 !important;
 }
 
 /* Hero Section */
@@ -60,6 +60,26 @@
     background-blend-mode: overlay;
     width: 100%;
     height: 80vh;
+}
+
+/* FAQ Section */
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button {
+    background-color: #F3F3F3 !important;
+    font-size: 24px !important;
+}
+
+.collapsed {
+    margin-bottom: 30px;
+}
+
+.accordion-body {
+    background-color: #F3F3F3 !important;
+    margin-bottom: 30px;
 }
 
 /* Media Queries */

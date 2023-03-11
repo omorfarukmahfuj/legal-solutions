@@ -40,6 +40,7 @@
 }
 
 /* Text Color */
+
 .text-light-medium {
     color: #E7E7E7 !important;
 }
@@ -50,6 +51,12 @@
 
 .text-gray-bold {
     color: #414040 !important;
+}
+
+/* Background-color */
+
+.bg-light-regular {
+    background-color: #F3F3F3 !important;
 }
 
 /* Hero Section */
@@ -63,10 +70,6 @@
 }
 
 /* FAQ Section */
-
-.accordion-item {
-    border: none !important;
-}
 
 .accordion-button {
     background-color: #F3F3F3 !important;
@@ -98,10 +101,6 @@
         width: 15%;
     }
 
-    .carousel-caption small,
-    h5 {
-        display: none;
-    }
 
     .carousel-caption p {
         font-size: 10px;
@@ -121,7 +120,4 @@
         padding: 15px 10px !important;
     }
 
-    .carousel-caption img {
-        display: none;
-    }
 }

@@ -45,6 +45,10 @@
     color: #E7E7E7 !important;
 }
 
+.text-light-bold {
+    color: #CFCFCF !important;
+}
+
 .text-gray-medium {
     color: #707070 !important;
 }
@@ -57,6 +61,10 @@
 
 .bg-light-regular {
     background-color: #F3F3F3 !important;
+}
+
+.footer-bg {
+    background-color: #111111;
 }
 
 /* Hero Section */
@@ -83,6 +91,12 @@
 .accordion-body {
     background-color: #F3F3F3 !important;
     margin-bottom: 30px;
+}
+
+/* Footer */
+footer li {
+    list-style: none;
+    margin-bottom: 10px;
 }
 
 /* Media Queries */
